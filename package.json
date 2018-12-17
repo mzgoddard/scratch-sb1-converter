@@ -9,7 +9,8 @@
     "type": "git",
     "url": "git+https://github.com/LLK/scratch-sb1-converter.git"
   },
-  "main": "index.js",
+  "main": "playground/main.js",
+  "browser": "index.js",
   "scripts": {
     "build": "npm run docs && webpack --progress --colors --bail",
     "coverage": "tap ./test/{unit,integration}/*.js --coverage --coverage-report=lcov",
